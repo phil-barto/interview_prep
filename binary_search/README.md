@@ -34,3 +34,10 @@ Think about the edge cases
     - use paranthesis when doing mathmatical operations
         - `left + right // 2` is **not** the correct way
         - `(left + right) // 2` is **the** correct way
+
+## Mountain Peak
+- https://algo.monster/problems/peak_of_mountain_array
+- key is to look at the value to the left, and the value to the right
+- if the value to the right is **greater** than the mid index, we know the peak must be to the right
+- if the value to the left is **greater** than the mid index, we know the peak must be to the left
+- 
