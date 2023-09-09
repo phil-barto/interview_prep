@@ -28,3 +28,9 @@ Think about the edge cases
 ## Min in rotated sorted array
 - https://algo.monster/problems/min_in_rotated_sorted_array
 - Key is searching for a boolean expression
+- The key here is to look at the left and right values to determine if the left/right sides are sorted.
+- mistakes:
+    - not doing `left <= right` rather than `left < right`
+    - use paranthesis when doing mathmatical operations
+        - `left + right // 2` is **not** the correct way
+        - `(left + right) // 2` is **the** correct way
